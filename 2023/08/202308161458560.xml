@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Providers>
+  <CustomSettingProvider Name="Win32ApplicationSettings" IsCritical="true">
+    <IsCacheable>true</IsCacheable>
+    <Timeout>5000</Timeout>
+    <Path>%windir%\system32\Win32AppSettingsProvider.dll</Path>
+    <SettingsSession>system</SettingsSession>
+  </CustomSettingProvider>
+</Providers>
